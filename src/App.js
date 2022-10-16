@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import About from './components/About';
 import Nav from './components/Nav';
+import About from './components/About';
 import Gallery from "./components/Gallery";
 
 function App() {
