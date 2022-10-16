@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
-
-
 function Nav(props) {
   // const [currentCategory, setCurrentCategory] = useState(categories[0]);
   // const [categories] = useState([
