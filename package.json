@@ -1,6 +1,5 @@
 {
   "homepage": "http://Clayton-Andersen.github.io/oh-snap",
-
   "name": "oh-snap",
   "version": "0.1.0",
   "private": true,
@@ -39,6 +38,8 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0"
+    "@testing-library/react": "^13.4.0",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
   }
 }

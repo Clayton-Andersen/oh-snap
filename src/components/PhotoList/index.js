@@ -3,6 +3,9 @@ import React, { useState } from 'react'
 
 const PhotoList = ({ category }) => {
 
+  // const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [currentPhoto, setCurrentPhoto] = useState();
+
   const [photos] = useState([
     {
       name: 'Grocery aisle',
@@ -101,7 +104,7 @@ const PhotoList = ({ category }) => {
     },
   ]);
 
-  const currentPhotos = photos.filter((photo) => photo.category === category);
+  const currentPhotos = photos.filter(photo => photo.category === category);
 
   return (
     <div>
